@@ -174,13 +174,15 @@ nav a {
 }
 
 section h2 {
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 section p{
     margin-top: 5px;
     width: 75%;
     font-size: 13px;
+    line-height: 21.45px;
 }
 
 .backname {
@@ -192,4 +194,22 @@ section p{
 .backname section {
     margin: 0 auto;
     width: 50%;
+}
+
+.future  {
+    margin: 70px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 30px;
+    justify-content: center;
+}
+
+.future section {
+    margin-left: 60px;
+    padding: 30px;
+}
+
+.future section p {
+    line-height: 21.45px;
+    text-align: start;
 }
