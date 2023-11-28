@@ -125,3 +125,71 @@ nav a {
 }
 
 
+/* Movement */
+
+.movement-h{
+    margin-top: 220px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container-movement {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.half-width-image {
+    width: 50%;
+    height: auto;
+}
+
+
+/* Culture */
+
+.culture-h{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.intro{
+    margin: 70px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: center;
+}
+
+.intro img {
+    border-radius: 4px;
+}
+
+.intro section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+section h2 {
+    font-size: 15px;
+}
+
+section p{
+    margin-top: 5px;
+    width: 75%;
+    font-size: 13px;
+}
+
+.backname {
+    display: flex;
+    margin: 50px;
+    text-align: start;
+}
+
+.backname section {
+    margin: 0 auto;
+    width: 50%;
+}
